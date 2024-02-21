@@ -1,0 +1,45 @@
+<html>
+     <head>
+        <title>JAVASCRIPT</title>
+        <script>
+           //parameterized sonstuctor
+
+
+           class product
+           {
+            constructor(id,category,name,cost)
+            {
+                this.pid = id
+                this.pacategory = category
+                this.pname = name
+                this.pcost = cost
+
+            }
+
+            display() 
+            {
+                document.writeln("Prodyct ID:"+this.pid+"</br>")
+                document.writeln("Prodyct category:"+this.pcategory+"</br>")
+                document.writeln("Prodyct Name:"+this.pname+"</br>")
+                document.writeln("Prodyct Cost:"+this.pcost+"</br>")
+
+            }
+           }
+
+           let p1 =new Product(101,"mobiles","iphone3",56000.50)
+           p1.display()
+
+           let p2 =new Product(101,"clothes","shirt",1000)
+           p2.display()
+           
+
+
+
+        </script>
+
+    </head>
+    <body>
+      
+    </body>
+
+</html
